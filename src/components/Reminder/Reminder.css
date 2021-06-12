@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&display=swap');
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(64, 97, 97);
+    width: 60%;
+    padding: 30px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    box-shadow: 8px 8px rgb(32, 53, 53);
+}
+
+.main .logo {
+    position: relative;
+    background-color: rgb(247, 235, 235);
+    width: 120px;
+    height: 140px;
+    border-radius: 25px;
+}
+
+.main .logo .p1 {
+    position: absolute;
+    background-color: orange;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    top: 25px;
+    left: 15px;
+}
+
+.main .logo .p2 {
+    position: absolute;
+    background-color: rgb(107, 107, 255);
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    top: 50px;
+    left: 15px;
+}
+
+.main .logo .p3 {
+    position: absolute;
+    background-color: rgb(24, 218, 24);
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    top: 75px;
+    left: 15px;
+}
+
+.main .logo .p4 {
+    position: absolute;
+    background-color: rgb(185, 121, 245);
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    top: 100px;
+    left: 15px;
+}
+
+.main .logo .hr0 {
+    position: absolute;
+    border: 0.1px solid gray;
+    top: 10px;
+    left: 25px;
+    width: 85px;
+}
+
+.main .logo .hr1 {
+    position: absolute;
+    border: 0.1px solid gray;
+    top: 35px;
+    left: 25px;
+    width: 85px;
+}
+
+.main .logo .hr2 {
+    position: absolute;
+    border: 0.1px solid gray;
+    top: 60px;
+    left: 25px;
+    width: 85px;
+}
+
+.main .logo .hr3 {
+    position: absolute;
+    border: 0.1px solid gray;
+    top: 85px;
+    left: 25px;
+    width: 85px;
+}
+
+.main .logo .hr4 {
+    position: absolute;
+    border: 0.1px solid gray;
+    top: 110px;
+    left: 25px;
+    width: 85px;
+}
+
+.main .todo {
+    color: #fff;
+    font-family: 'Cairo', sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+.main .reminders {
+    width: 100%;
+}
+
+.main .reminders .reminder {
+    border: none;
+    outline: none;
+    width: 80%;
+    height: 15px;
+    padding: 10px;
+    border-radius: 13px;
+    margin-bottom: 10px;
+    box-shadow: 0px 4px rgb(32, 53, 53);
+}
+
+.main .reminders .date {
+    border: none;
+    outline: none;
+    width: 80%;
+    margin: auto;
+    height: 15px;
+    padding: 10px;
+    border-radius: 13px;
+    box-shadow: 0px 4px rgb(32, 53, 53);
+}
+
+.react-datepicker-wrapper,
+.react-datepicker__input-container {
+    display: block;
+}
+
+.main .reminders .controls {
+    margin-top: 20px;
+}
+
+.main .reminders .add {
+    background-color: rgb(112, 112, 241);
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 82%;
+    color: #fff;
+    font-family: 'Cairo' sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    border-radius: 25px;
+    box-shadow: 0px 6px rgb(60, 60, 177);
+    cursor: pointer;
+}
+
+.main .reminders .add:hover {
+    position: relative;
+    box-shadow: 0px 4px rgb(60, 60, 177);
+    top: 2px;
+}
+
+.main .reminders .add:active {
+    position: relative;
+    box-shadow: 0px 1px rgb(60, 60, 177);
+    top: 4px;
+}
+
+.main .reminders .clear {
+    background-color: rgb(241, 82, 82);
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 82%;
+    color: #fff;
+    font-family: 'Cairo' sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    border-radius: 25px;
+    box-shadow: 0px 6px rgb(192, 52, 52);
+    cursor: pointer;
+}
+
+.main .reminders .clear:hover {
+    position: relative;
+    box-shadow: 0px 4px rgb(192, 52, 52);
+    top: 2px;
+}
+
+.main .reminders .clear:active {
+    position: relative;
+    box-shadow: 0px 1px rgb(192, 52, 52);
+    top: 4px;
+}
+
+.main .reminders .controls .my_reminders {
+    position: relative;
+    width: 80%;
+    padding: 1px 20px;
+    margin: auto;
+    margin-bottom: 15px;
+    background-color: #fff;
+    border-radius: 25px;
+}
+
+.main .reminders .controls .my_reminders .mine_reminder {
+    text-align: left;
+    word-wrap: break-word;
+    text-transform: capitalize;
+}
+
+.main .reminders .controls .my_reminders .mine_date {
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.main .reminders .controls .my_reminders .close {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 20px;
+    border-radius: 50%;
+    background-color: rgb(201, 31, 31);
+    color: #fff;
+    top: 10%;
+    left: 90%;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 676px) {
+    .main .reminders .controls .my_reminders .close {
+        left: 85%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .main .reminders .controls .my_reminders .close {
+        left: 80%;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .main .reminders .controls .my_reminders .close {
+        left: 75%;
+    }
+}
